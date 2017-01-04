@@ -59,7 +59,7 @@ if &background == "light"
     hi WarningMsg gui=NONE guifg=NONE cterm=NONE ctermfg=NONE
     hi WildMenu gui=NONE guifg=NONE cterm=NONE ctermfg=NONE
 else " dark
-    hi Normal gui=NONE guibg=#262626 guifg=#FFFFFF cterm=NONE ctermbg=235 ctermfg=255
+    hi Normal gui=NONE guibg=#262626 guifg=#FFFFFF cterm=NONE ctermbg=232 ctermfg=255
     hi Char gui=NONE guibg=NONE guifg=NONE cterm=NONE ctermbg=NONE ctermfg=NONE
     hi ColorColumn guibg=#000000 ctermbg=0
     hi Comment gui=NONE guibg=NONE guifg=#585858 cterm=NONE ctermbg=NONE ctermfg=240
@@ -82,7 +82,7 @@ else " dark
     hi Ignore gui=NONE guifg=NONE cterm=NONE ctermfg=NONE
     hi IncSearch gui=reverse guifg=NONE cterm=reverse ctermfg=NONE
     hi Keyword gui=NONE guibg=NONE guifg=NONE cterm=NONE ctermbg=NONE ctermfg=NONE
-    hi LineNr gui=NONE guifg=#555555 guibg=#262626 cterm=NONE ctermfg=8 ctermbg=235
+    hi LineNr gui=NONE guifg=#555555 guibg=#262626 cterm=NONE ctermfg=8 ctermbg=232
     hi MatchParen gui=reverse guibg=NONE guifg=NONE cterm=reverse ctermbg=NONE ctermfg=NONE
     hi ModeMsg gui=NONE guifg=NONE cterm=NONE ctermfg=NONE
     hi MoreMsg gui=NONE guifg=NONE cterm=NONE ctermfg=NONE
