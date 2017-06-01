@@ -61,7 +61,7 @@ if &background == "light"
 else " dark
     hi Normal gui=NONE guibg=#262626 guifg=#FFFFFF cterm=NONE ctermbg=232 ctermfg=255
     hi Char gui=NONE guibg=NONE guifg=NONE cterm=NONE ctermbg=NONE ctermfg=NONE
-    hi ColorColumn gui=NONE guifg=NONE guibg=#3A3A3A cterm=NONE ctermfg=NONE ctermbg=237
+    hi ColorColumn gui=NONE guifg=NONE guibg=#3A3A3A cterm=NONE ctermfg=NONE ctermbg=234
     hi Comment gui=NONE guibg=NONE guifg=#585858 cterm=NONE ctermbg=NONE ctermfg=240
     hi Conditional gui=NONE guibg=NONE guifg=NONE cterm=NONE ctermbg=NONE ctermfg=NONE
     hi Constant gui=NONE guibg=NONE guifg=NONE cterm=NONE ctermbg=NONE ctermfg=NONE
