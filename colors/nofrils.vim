@@ -59,7 +59,7 @@ if &background == "light"
     hi WarningMsg gui=NONE guifg=NONE cterm=NONE ctermfg=NONE
     hi WildMenu gui=NONE guifg=NONE cterm=NONE ctermfg=NONE
 else " dark
-    hi Normal gui=NONE guibg=#262626 guifg=#FFFFFF cterm=NONE ctermbg=232 ctermfg=255
+    hi Normal gui=NONE guibg=NONE guifg=#FFFFFF cterm=NONE ctermbg=NONE ctermfg=255
     hi Char gui=NONE guibg=NONE guifg=NONE cterm=NONE ctermbg=NONE ctermfg=NONE
     hi ColorColumn gui=NONE guifg=NONE guibg=#3A3A3A cterm=NONE ctermfg=NONE ctermbg=234
     hi Comment gui=NONE guibg=NONE guifg=#585858 cterm=NONE ctermbg=NONE ctermfg=240
@@ -86,12 +86,12 @@ else " dark
     hi MatchParen gui=reverse guibg=NONE guifg=NONE cterm=reverse ctermbg=NONE ctermfg=NONE
     hi ModeMsg gui=NONE guifg=NONE cterm=NONE ctermfg=NONE
     hi MoreMsg gui=NONE guifg=NONE cterm=NONE ctermfg=NONE
-	hi NonText gui=NONE guibg=NONE guifg=#585858 cterm=NONE ctermbg=NONE ctermfg=8
+    hi NonText gui=NONE guibg=NONE guifg=#585858 cterm=NONE ctermbg=NONE ctermfg=8
     hi Number gui=NONE guibg=NONE guifg=NONE cterm=NONE ctermbg=NONE ctermfg=NONE
     hi PreProc gui=NONE guifg=NONE cterm=NONE ctermfg=NONE
     hi Search guifg=#000000 guibg=#585858 ctermfg=0 ctermbg=240
     hi Special gui=NONE guibg=NONE guifg=NONE cterm=NONE ctermbg=NONE ctermfg=NONE
-    hi SpecialKey gui=NONE guifg=NONE cterm=NONE ctermfg=8
+    hi SpecialKey gui=NONE guifg=#585858 cterm=NONE ctermfg=240
     hi Statement gui=NONE guibg=NONE guifg=NONE cterm=NONE ctermbg=NONE ctermfg=NONE
     hi StatusLine gui=reverse guifg=NONE cterm=reverse ctermfg=NONE
     hi StatusLineNC gui=NONE guifg=NONE cterm=NONE ctermfg=NONE
